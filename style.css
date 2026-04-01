@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("img/arvore.jpg") !important;
+    background-size: cover !important;
+    background-position: contain  !important;
+    background-size: cover;
+    background-size:  100% !important;
+    background-repeat: no-repeat !important;
+    background-image: linear-gradient(to right, rgb(214, 85, 158), rgb(38, 104, 190), rgb(121, 0, 68));    
+
+}
+
+#cursos {
+  background-image: url("img/igreja.jpg") !important;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+    background-color: rgb(247, 209, 230);
+    height: 40px;
+    width: 250px;
+    border-width: 10px;
+    padding-left: 10px;
+    margin: 10px;
+}
+
+#normal {
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    width: 250px;
+    border-width: 10px;
+    padding-left: 10px;
+    margin: 10px;
+}
+
+h2{
+    color: rgb(133, 23, 87);
+}
+
+#cursosh2 {
+    color: rgb(0, 0, 0);
+}
+
+p{
+    text-align: justify;
+}
+
+
+#euredondo {
+    width: 200px;
+    height: 200px;      
+    border-radius: 50%; 
+    object-fit: cover;  
+}
+
+#flor {
+  border-radius: 20%;
+}
+
+
+aside {
+    background-color: rgb(243, 220, 233);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+#maincurriculo {
+    background-image: url("img/fundoflor.png") !important;
+    background-size: cover;        
+    background-position: center;   
+    background-repeat: no-repeat;
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
+    border-radius: 10px;
+}
+
+#maincursos {
+    background-image: url("img/fundoborboleta.png") !important;
+    background-size: cover;        
+    background-position: center;   
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    box-shadow: 10px 10px 10px black;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+
+footer {
+    background-color: rgb(255, 255, 255);
+    color: rgb(240, 0, 132);
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+footer a {
+    text-decoration: underline;
+    color: rgb(248, 158, 209);
+}
+
